@@ -2,7 +2,7 @@
 Created on 30-May-2018
 Dictionary is a python data type that is used to store key value pairs.
 It enables you to quickly retrieve, add, remove, modify, values using key. 
- Dictionary is very similar to what we call as Map in java
+Dictionary is very similar to what we call as Map in java
 @author: borokali
 '''
 friends = {
