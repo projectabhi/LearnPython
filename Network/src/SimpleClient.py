@@ -6,7 +6,7 @@ Created on 26-Aug-2018
 import socket
 s=socket.socket()
 host=socket.gethostname()
-port=12345
+port=39082
 s.connect((host,port))
 print(s.recv(1024))
 s.close()
