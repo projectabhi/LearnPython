@@ -1,3 +1,4 @@
+from basic.ClassAndObject import ClassConstructor
 class SimpleClass:
     "This is my class"
     a = 10
@@ -15,3 +16,5 @@ print(SimpleClass.func)
 SimpleClass.func(' ')
 
 print(SimpleClass.__doc__)
+c1=ClassConstructor.ComplexNumbers()
+print(c1.is_realnumber(100))
